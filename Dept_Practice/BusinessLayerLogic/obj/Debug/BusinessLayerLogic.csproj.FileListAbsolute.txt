@@ -1,0 +1,11 @@
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\obj\Debug\BusinessLayerLogic.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\obj\Debug\BusinessLayerLogic.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\BusinessLayerLogic.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\BusinessLayerLogic.pdb
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\BusinessLayerModel.pdb
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\obj\Debug\BusinessLayerLogic.csproj.CopyComplete
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\obj\Debug\BusinessLayerLogic.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\obj\Debug\BusinessLayerLogic.pdb
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\DataLayer.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\BusinessLayerLogic\bin\Debug\DataLayer.pdb

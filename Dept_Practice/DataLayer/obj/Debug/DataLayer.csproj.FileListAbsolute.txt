@@ -1,0 +1,9 @@
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\bin\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\bin\Debug\BusinessLayerModel.pdb
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Shubham Sharma\source\repos\Dept_Practice\DataLayer\obj\Debug\DataLayer.pdb
