@@ -34,7 +34,8 @@
     <Reference Include="BusinessLayerModel">
       <HintPath>..\BusinessLayerModel\bin\Debug\BusinessLayerModel.dll</HintPath>
     </Reference>
-    <Reference Include="DataLayer">
+    <Reference Include="DataLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DataLayer\bin\Debug\DataLayer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -48,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeptBL.cs" />
+    <Compile Include="EmpBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

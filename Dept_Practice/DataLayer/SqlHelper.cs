@@ -26,5 +26,17 @@ namespace DataLayer
             dataAdapter.Fill(ds);
             return ds;
         }
+        public static void InsertUpdateDelete(string commandText, CommandType commandType, SqlParameter[] param)
+        {
+            conn = new SqlConnection(@"Data Source=SHUBHAMSHARMA\MSSQLSERVER01;Initial Catalog=SCOTT;Integrated Security=True");
+            SqlCommand command = new SqlCommand();
+            command.CommandText = commandText;
+            command.Connection = conn;
+            if (param != null)
+            {
+                command.Parameters.AddRange(param);
+            }
+            int rowsAffected = command.ExecuteNonQuery();
+        }
     }
 }

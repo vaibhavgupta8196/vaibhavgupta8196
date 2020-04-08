@@ -18,6 +18,8 @@
         <br />
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <br />
+        <asp:FormView ID="FormView1" runat="server">
+        </asp:FormView>
         <br />
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataTextField="DName" DataValueField="DName" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
         </asp:DropDownList>

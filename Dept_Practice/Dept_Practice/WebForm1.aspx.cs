@@ -22,11 +22,14 @@ namespace Dept_Practice
                 ViewState["deptlist"] = deptList;
                 GridView1.DataSource = deptList;
                 GridView1.DataBind();
-               
+
+                FormView1.DataSource = deptList;
+                FormView1.DataBind();
+
                 DropDownList1.DataSource = deptList;
                 DropDownList1.DataBind();
                 //DropDownList1.ClearSelection();
-                DropDownList1.SelectedIndex = -1;
+                DropDownList1.Items.Insert(0,"-----");
 
             }
             
@@ -37,15 +40,27 @@ namespace Dept_Practice
         {
             if (ViewState["deptlist"] != null)
             {
-                List<Dept> deptList = (List<Dept>)ViewState["deptlist"];
-                List<Dept> found = new List<Dept>();
+                if (DropDownList1.SelectedValue== "-----")
+                {
+                    List<Dept> dept = (List<Dept>)ViewState["deptlist"];
+                    GridView1.DataSource = dept;
+                    GridView1.DataBind();
+                }
+                else
+                {
+                    List<Dept> deptList = (List<Dept>)ViewState["deptlist"];
+                    List<Dept> found = new List<Dept>();
 
-                found.Add(deptList.Find(d => d.DName == DropDownList1.SelectedValue));
-                GridView1.DataSource = found;
-                GridView1.DataBind();
-                    
+                    found.Add(deptList.Find(d => d.DName == DropDownList1.SelectedValue));
+                    GridView1.DataSource = found;
+                    GridView1.DataBind();
+                }
+
             }
-
         }
+            
+            
+
+            
     }
 }
