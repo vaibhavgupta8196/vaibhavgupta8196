@@ -20,7 +20,7 @@
             <EditItemTemplate>
                 <asp:Label ID="Label11" runat="server" Text="Emp No"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="eempno" runat="server" Text='<%# Bind("EmpNo") %>' ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="eempno" runat="server" Text='<%# Bind("EmpNo") %>'></asp:TextBox>
                 <br />
                 <asp:Label ID="Label12" runat="server" Text="EName"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -29,11 +29,11 @@
                 <asp:Label ID="Label13" runat="server" Text="Job"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="ejob" runat="server" Text='<%# Bind("Job") %>'></asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <br />
                 <asp:Label ID="Label14" runat="server" Text="Mgr"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="emgr" runat="server" Text='<%# Bind("Mgr") %>'></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="emgr" ErrorMessage="Enter Manager EmpNo">*</asp:RequiredFieldValidator>
                 <br />
                 <asp:Label ID="Label15" runat="server" Text="HireDate"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,15 +41,15 @@
                 <br />
                 <asp:Label ID="Label16" runat="server" Text="Sal"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="esal" runat="server" Text='<%#Bind("Sal")  %>'></asp:TextBox>
+                <asp:TextBox ID="esal" runat="server" Text='<%# Bind("Sal") %>'></asp:TextBox>
                 <br />
                 <asp:Label ID="Label17" runat="server" Text="Comm"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="ecomm" runat="server" Text='<%#Bind("Comm")  %>'></asp:TextBox>
+                <asp:TextBox ID="ecomm" runat="server" Text='<%# Bind("Comm") %>'></asp:TextBox>
                 <br />
                 <asp:Label ID="Label18" runat="server" Text="DeptNo"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="edeptno" runat="server" Text='<%#Bind("DeptNo")  %>'></asp:TextBox>
+                <asp:TextBox ID="edeptno" runat="server" Text='<%# Bind("DeptNo") %>'></asp:TextBox>
                 <br />
                 <br />
                 <asp:Button ID="Update" runat="server" OnClick="Button1_Click" Text="Update" />
@@ -61,6 +61,7 @@
                 <asp:Label ID="Label21" runat="server" Text="Emp No"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="iempno" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="iempno" ErrorMessage="Enter EmpNo">*</asp:RequiredFieldValidator>
                 <br />
                 <br />
                 <asp:Label ID="Label22" runat="server" Text="EName"></asp:Label>
@@ -76,6 +77,7 @@
                 <asp:Label ID="Label24" runat="server" Text="Mgr"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:TextBox ID="imgr" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="imgr" ErrorMessage="Enter Manager EmpNo">*</asp:RequiredFieldValidator>
                 <br />
                 <br />
                 <asp:Label ID="Label25" runat="server" Text="HireDate"></asp:Label>
@@ -105,7 +107,7 @@
             <ItemTemplate>
                 <asp:Label ID="Label1" runat="server" Text="Emp No"></asp:Label>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="empno" runat="server" Text='<%# Bind("EmpNo") %>'></asp:TextBox>
+                <asp:TextBox ID="empno" runat="server" Text='<%# Bind("EmpNo") %>' OnTextChanged="empno_TextChanged1"></asp:TextBox>
                 <br />
                 <br />
                 <asp:Label ID="Label2" runat="server" Text="EName"></asp:Label>

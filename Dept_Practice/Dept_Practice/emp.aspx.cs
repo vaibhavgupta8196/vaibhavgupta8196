@@ -19,6 +19,7 @@ namespace Dept_Practice
                 EmpBL empBL = new EmpBL();
                 List<Emp> empList = empBL.GetAllEmployee();
                 ViewState["data"] = empList;
+               // FormView1.AllowPaging = true;
                 FormView1.DataSource = empList;
                 FormView1.DataBind();
             }
@@ -29,10 +30,11 @@ namespace Dept_Practice
         {
             if (ViewState["data"] != null)
             {
+                EmpBL empBL = new EmpBL();
                 List<Emp> emplist = (List<Emp>)ViewState["data"];
-
-                FormView1.PageIndex = e.NewPageIndex;
-                FormView1.AllowPaging = true;
+                //List<Emp> empList = empBL.GetAllEmployee();
+                //FormView1.PageIndex = e.NewPageIndex;
+                //FormView1.AllowPaging = true;
                 FormView1.DataSource = emplist;
                 FormView1.DataBind();
             }
@@ -55,11 +57,18 @@ namespace Dept_Practice
             int mgr = int.Parse(((TextBox)(FormView1.FindControl("emgr"))).Text);
             DateTime hiredate = DateTime.Parse(((TextBox)(FormView1.FindControl("ehiredate"))).Text);
             int sal = int.Parse(((TextBox)(FormView1.FindControl("esal"))).Text);
-            int comm = int.Parse(((TextBox)(FormView1.FindControl("ecomm"))).Text);
+            int comm = int.Parse(((TextBox)FormView1.FindControl("ecomm")).Text);
 
             int deptno = int.Parse(((TextBox)(FormView1.FindControl("edeptno"))).Text);
             EmpBL empbl = new EmpBL();
             empbl.UpdateEmployee(empno,ename,job,mgr,hiredate,sal,comm,deptno);
+            
+            FormView1.ChangeMode(FormViewMode.ReadOnly);
+            List<Emp> emplist = empbl.GetAllEmployee();
+            ViewState["data"] = emplist;
+            FormView1.DataSource = emplist;
+            FormView1.DataBind();
+            
         }
 
         protected void empno_TextChanged(object sender, EventArgs e)
@@ -88,6 +97,11 @@ namespace Dept_Practice
             dp.Add(emp);
             EmpBL empbl = new EmpBL();
             empbl.InsertEmployee(dp);
+            FormView1.ChangeMode(FormViewMode.ReadOnly);
+            List<Emp> emplist = empbl.GetAllEmployee();
+            ViewState["data"] = emplist;
+            FormView1.DataSource = emplist;
+            FormView1.DataBind();
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -95,26 +109,32 @@ namespace Dept_Practice
             int empno = int.Parse(((TextBox)FormView1.FindControl("empno")).Text);
             EmpBL empbl = new EmpBL();
             empbl.DeleteEmployee(empno);
+            FormView1.ChangeMode(FormViewMode.ReadOnly);
+            List<Emp> emplist = empbl.GetAllEmployee();
+            ViewState["data"] = emplist;
+            FormView1.DataSource = emplist;
+            FormView1.DataBind();
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
             FormView1.ChangeMode(FormViewMode.Edit);
+            List<Emp> emplist = (List<Emp>)ViewState["data"];
+            FormView1.DataSource = emplist;
+            FormView1.DataBind();
             
         }
 
         protected void FormView1_ModeChanging(object sender, FormViewModeEventArgs e)
         {
-            if (ViewState["data"] == null)
-            {
-                List<Emp> emplist = (List<Emp>)ViewState["data"];
-
-                FormView1.ChangeMode(e.NewMode);
-                FormView1.AllowPaging = true;
-                FormView1.DataSource = emplist;
-                FormView1.DataBind();
-            }
             
+                FormView1.ChangeMode(e.NewMode);
+               
+        }
+
+        protected void empno_TextChanged1(object sender, EventArgs e)
+        {
+
         }
     }
 }
