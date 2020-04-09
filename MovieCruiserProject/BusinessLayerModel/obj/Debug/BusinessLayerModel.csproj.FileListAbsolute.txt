@@ -1,0 +1,6 @@
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\bin\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\bin\Debug\BusinessLayerModel.pdb
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\obj\Debug\BusinessLayerModel.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\obj\Debug\BusinessLayerModel.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\obj\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\MovieCruiserProject\BusinessLayerModel\obj\Debug\BusinessLayerModel.pdb
