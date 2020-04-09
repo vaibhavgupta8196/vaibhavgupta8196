@@ -14,32 +14,77 @@ namespace Dept_Practice
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
                 EmpBL empBL = new EmpBL();
-                List <Emp> empList = empBL.GetAllEmployee();
+                List<Emp> empList = empBL.GetAllEmployee();
+                ViewState["data"] = empList;
                 FormView1.DataSource = empList;
                 FormView1.DataBind();
+            }
+            
         }
 
         protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
         {
+            if (ViewState["data"] != null)
+            {
+                List<Emp> emplist = (List<Emp>)ViewState["data"];
+
+                FormView1.PageIndex = e.NewPageIndex;
+                FormView1.AllowPaging = true;
+                FormView1.DataSource = emplist;
+                FormView1.DataBind();
+            }
+        }
+
+        protected void Insert1_Click(object sender, EventArgs e)
+        {
+            FormView1.ChangeMode(FormViewMode.Insert);
+           
+        }
+
+        
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            
+            int empno = int.Parse(((TextBox)FormView1.FindControl("eempno")).Text);
+            string ename = ((TextBox)FormView1.FindControl("eename")).Text;
+            string job = ((TextBox)(FormView1.FindControl("ejob"))).Text;
+            int mgr = int.Parse(((TextBox)(FormView1.FindControl("emgr"))).Text);
+            DateTime hiredate = DateTime.Parse(((TextBox)(FormView1.FindControl("ehiredate"))).Text);
+            int sal = int.Parse(((TextBox)(FormView1.FindControl("esal"))).Text);
+            int comm = int.Parse(((TextBox)(FormView1.FindControl("ecomm"))).Text);
+
+            int deptno = int.Parse(((TextBox)(FormView1.FindControl("edeptno"))).Text);
+            EmpBL empbl = new EmpBL();
+            empbl.UpdateEmployee(empno,ename,job,mgr,hiredate,sal,comm,deptno);
+        }
+
+        protected void empno_TextChanged(object sender, EventArgs e)
+        {
 
         }
 
-        protected void Button3_Click(object sender, EventArgs e)
+        
+
+        protected void insert2_Click(object sender, EventArgs e)
         {
             List<Emp> dp = new List<Emp>();
 
-            int empno= int.Parse(((TextBox)FormView1.FindControl("empno")).Text);
-            string ename =( (TextBox)FormView1.FindControl("ename")).Text;
-            string job = ((TextBox)(FormView1.FindControl("job"))).Text;
-            int mgr = int.Parse(((TextBox)(FormView1.FindControl("mgr"))).Text);
-            DateTime hiredate = DateTime.Parse(((TextBox)(FormView1.FindControl("hiredate"))).Text);
-            int sal = int.Parse(((TextBox)(FormView1.FindControl("sal"))).Text);  
-            int comm = int.Parse(((TextBox)(FormView1.FindControl("comm"))).Text);
             
-            int deptno = int.Parse(((TextBox)(FormView1.FindControl("deptno"))).Text);
+           int empno = int.Parse(((TextBox)FormView1.FindControl("iempno")).Text);
+            string ename = ((TextBox)FormView1.FindControl("iename")).Text;
+            string job = ((TextBox)(FormView1.FindControl("ijob"))).Text;
+            int mgr = int.Parse(((TextBox)(FormView1.FindControl("imgr"))).Text);
+            DateTime hiredate = DateTime.Parse(((TextBox)(FormView1.FindControl("ihiredate"))).Text);
+            int sal = int.Parse(((TextBox)(FormView1.FindControl("isal"))).Text);
+            int comm = int.Parse(((TextBox)(FormView1.FindControl("icomm"))).Text);
 
-            Emp emp = new Emp(empno,ename,job,mgr,hiredate,sal,comm,deptno);
+            int deptno = int.Parse(((TextBox)(FormView1.FindControl("ideptno"))).Text);
+
+            Emp emp = new Emp(empno, ename, job, mgr, hiredate, sal, comm, deptno);
             dp.Add(emp);
             EmpBL empbl = new EmpBL();
             empbl.InsertEmployee(dp);
@@ -52,19 +97,24 @@ namespace Dept_Practice
             empbl.DeleteEmployee(empno);
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Button1_Click1(object sender, EventArgs e)
         {
-            int empno = int.Parse(((TextBox)FormView1.FindControl("empno")).Text);
-            string ename = ((TextBox)FormView1.FindControl("ename")).Text;
-            string job = ((TextBox)(FormView1.FindControl("job"))).Text;
-            int mgr = int.Parse(((TextBox)(FormView1.FindControl("mgr"))).Text);
-            DateTime hiredate = DateTime.Parse(((TextBox)(FormView1.FindControl("hiredate"))).Text);
-            int sal = int.Parse(((TextBox)(FormView1.FindControl("sal"))).Text);
-            int comm = int.Parse(((TextBox)(FormView1.FindControl("comm"))).Text);
+            FormView1.ChangeMode(FormViewMode.Edit);
+            
+        }
 
-            int deptno = int.Parse(((TextBox)(FormView1.FindControl("deptno"))).Text);
-            EmpBL empbl = new EmpBL();
-            empbl.UpdateEmployee(empno,ename,job,mgr,hiredate,sal,comm,deptno);
+        protected void FormView1_ModeChanging(object sender, FormViewModeEventArgs e)
+        {
+            if (ViewState["data"] == null)
+            {
+                List<Emp> emplist = (List<Emp>)ViewState["data"];
+
+                FormView1.ChangeMode(e.NewMode);
+                FormView1.AllowPaging = true;
+                FormView1.DataSource = emplist;
+                FormView1.DataBind();
+            }
+            
         }
     }
 }

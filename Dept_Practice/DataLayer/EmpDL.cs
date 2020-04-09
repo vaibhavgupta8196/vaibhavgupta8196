@@ -83,7 +83,7 @@ namespace DataLayer
             Param[5] = new SqlParameter("@SAL", sal);
             Param[6] = new SqlParameter("@COMM", comm);
             Param[7] = new SqlParameter("@DEPTNO", deptno);
-            SqlHelper.InsertUpdateDelete("modify emp  set  ENAME=@ENAME, JOB=@JOB, MGR=@MGR, HIREDATE@HIREDATE, SAL=@SAL, COMM=@COMM, DEPTNO=@DEPTNO where EMPNO=@EMPNO ", CommandType.Text, Param);
+            SqlHelper.InsertUpdateDelete("update emp  set  ENAME=@ENAME, JOB=@JOB, MGR=@MGR, HIREDATE=@HIREDATE, SAL=@SAL, COMM=@COMM, DEPTNO=@DEPTNO where EMPNO=@EMPNO " , CommandType.Text, Param);
 
         }
     }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayerModel
 {
+    [Serializable]
     public class Emp
     {
         private int empNo;
