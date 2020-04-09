@@ -36,7 +36,11 @@ namespace DataLayer
             {
                 command.Parameters.AddRange(param);
             }
+            conn.Open();
             int rowsAffected = command.ExecuteNonQuery();
+            conn.Close();
+
+
         }
     }
 }
