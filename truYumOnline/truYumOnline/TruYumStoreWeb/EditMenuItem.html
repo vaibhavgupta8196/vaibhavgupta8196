@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page2</title>
+	<link rel="stylesheet" href="styles\style.css">
+	<script src="js\script.js" >
+	</script>
+</head>
+<body>
+	<header>
+		<h3 id="tru"><a id="tru" href="MenuItemsListAdmin.html">truYum</a></h3>
+		<img id="img" src="images\download.png">
+		<h3><a href="MenuItemsListAdmin.html"><u id="menu">Products</u></a></h3>
+	</header><br></br>
+<h id="item">Edit Menu Items</h><br><br>
+<form  action="EditMenuItemStatus.html" method="get">
+<label for="name"  id="name">Name</lable><br>
+<input type="text" name="textname" id="text" required>
+<table id="table">
+	<tr><th><label for name="price">price(<span>&#8377;</span>)</label></th>
+		<th><label for name="Active">Active</label></th>
+	`	<th><label for name="Date Of Launch">Date Of Launch</label></th>
+		<th><label for name="Category">Category</label></th></tr>
+	<tr><td><input type="text" id="name1" required></td>
+		<td><input type="radio" name="Active" value="Yes" checked> Yes<input type="radio" name="Active" value="No"> No</td>
+	<td><input type="date" name="Dateoflaunch" id="dob"  onkeypress="return false" required/></td>
+	<td><select id="category">
+ 		 <option value="Starters">Starters</option>
+ 		 <option value="Main Course">Main Course</option>
+ 		 <option value="Dessert">Dessert</option>
+ 		 <option value="Drinks">Drinks</option>
+		</select></td></tr>
+	<tr><td><input type="checkbox" name="Free Delivery" value="Free Delivery" checked> Free Delivery</td>
+	</tr>
+	<tr><td><input type="submit" id="save"name="save" value="save" onclick="return callme()"/></td>
+	</tr>
+
+</table>
+</form>
+<footer><p id="foot">Copyright &#169; 2019</p>
+</footer>
+</body>
+</html>
