@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\bin\Debug\HandsOn02-ADO.NET.exe.config
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\bin\Debug\HandsOn02-ADO.NET.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\bin\Debug\HandsOn02-ADO.NET.pdb
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\obj\Debug\HandsOn03-ADO.NET.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\obj\Debug\HandsOn03-ADO.NET.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\obj\Debug\HandsOn02-ADO.NET.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn02-ADO.NET\HandsOn02-ADO.NET\obj\Debug\HandsOn02-ADO.NET.pdb
