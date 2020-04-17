@@ -39,8 +39,6 @@ namespace DataLayer
             conn.Open();
             int rowsAffected = command.ExecuteNonQuery();
             conn.Close();
-
-
         }
     }
 }

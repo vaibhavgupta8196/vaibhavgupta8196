@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\bin\Debug\ado_net1.exe.config
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\bin\Debug\ado_net1.exe
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\bin\Debug\ado_net1.pdb
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\obj\Debug\ado_net1.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\obj\Debug\ado_net1.exe
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\obj\Debug\ado_net1.pdb
+C:\Users\Shubham Sharma\source\repos\ado_net1\ado_net1\obj\Debug\ado_net1.csprojAssemblyReference.cache

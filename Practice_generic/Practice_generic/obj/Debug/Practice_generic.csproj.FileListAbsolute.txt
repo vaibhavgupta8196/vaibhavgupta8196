@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\bin\Debug\Practice_generic.exe.config
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\bin\Debug\Practice_generic.exe
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\bin\Debug\Practice_generic.pdb
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\obj\Debug\Practice_generic.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\obj\Debug\Practice_generic.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\obj\Debug\Practice_generic.exe
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Practice_generic\obj\Debug\Practice_generic.pdb

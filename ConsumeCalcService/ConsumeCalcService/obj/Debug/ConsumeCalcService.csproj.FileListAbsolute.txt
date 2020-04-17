@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\bin\Debug\ConsumeCalcService.exe.config
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\bin\Debug\ConsumeCalcService.exe
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\bin\Debug\ConsumeCalcService.pdb
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\obj\Debug\ConsumeCalcService.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\obj\Debug\ConsumeCalcService.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\obj\Debug\ConsumeCalcService.exe
+C:\Users\Shubham Sharma\source\repos\ConsumeCalcService\ConsumeCalcService\obj\Debug\ConsumeCalcService.pdb

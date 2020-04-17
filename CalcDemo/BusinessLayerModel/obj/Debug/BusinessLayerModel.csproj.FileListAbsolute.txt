@@ -1,0 +1,5 @@
+C:\Users\Shubham Sharma\source\repos\CalcDemo\BusinessLayerModel\bin\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\CalcDemo\BusinessLayerModel\bin\Debug\BusinessLayerModel.pdb
+C:\Users\Shubham Sharma\source\repos\CalcDemo\BusinessLayerModel\obj\Debug\BusinessLayerModel.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\CalcDemo\BusinessLayerModel\obj\Debug\BusinessLayerModel.dll
+C:\Users\Shubham Sharma\source\repos\CalcDemo\BusinessLayerModel\obj\Debug\BusinessLayerModel.pdb

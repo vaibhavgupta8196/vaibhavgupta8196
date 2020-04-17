@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\bin\Debug\disconnected architecture.exe.config
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\bin\Debug\disconnected architecture.exe
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\bin\Debug\disconnected architecture.pdb
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\obj\Debug\disconnected architecture.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\obj\Debug\disconnected architecture.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\obj\Debug\disconnected architecture.exe
+C:\Users\Shubham Sharma\source\repos\disconnected architecture\disconnected architecture\obj\Debug\disconnected architecture.pdb

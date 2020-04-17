@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\bin\Debug\HandsOn_05-ADO.exe.config
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\bin\Debug\HandsOn_05-ADO.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\bin\Debug\HandsOn_05-ADO.pdb
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\obj\Debug\HandsOn_05-ADO.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\obj\Debug\HandsOn_05-ADO.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\obj\Debug\HandsOn_05-ADO.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn_05-ADO\HandsOn_05-ADO\obj\Debug\HandsOn_05-ADO.pdb

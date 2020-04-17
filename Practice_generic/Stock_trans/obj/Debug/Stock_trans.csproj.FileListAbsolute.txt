@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\bin\Debug\Stock_trans.exe.config
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\bin\Debug\Stock_trans.exe
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\bin\Debug\Stock_trans.pdb
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\obj\Debug\Stock_trans.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\obj\Debug\Stock_trans.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\obj\Debug\Stock_trans.exe
+C:\Users\Shubham Sharma\source\repos\Practice_generic\Stock_trans\obj\Debug\Stock_trans.pdb

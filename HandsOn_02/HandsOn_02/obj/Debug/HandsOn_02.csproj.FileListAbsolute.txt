@@ -1,0 +1,7 @@
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\bin\Debug\HandsOn_02.exe.config
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\bin\Debug\HandsOn_02.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\bin\Debug\HandsOn_02.pdb
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\obj\Debug\HandsOn_02.csprojAssemblyReference.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\obj\Debug\HandsOn_02.csproj.CoreCompileInputs.cache
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\obj\Debug\HandsOn_02.exe
+C:\Users\Shubham Sharma\source\repos\HandsOn_02\HandsOn_02\obj\Debug\HandsOn_02.pdb
